@@ -36,6 +36,7 @@ conda env export > conda.yaml
 
 ### STEP 07 - Get data
 ```bash
-create stage_01_template.py and update config.yaml file to fetch and create data file
-write code unzip data in common.py as a function, stage_01_template.py file and config.yaml
+1.create stage_01_get_data.py and update config.yaml file to fetch and create data file
+2.write code unzip data in common.py as a function, stage_01_get_data.py file and config.yaml
+3.create data_mgmt file to validate image and store bad images in bad folder, update cnfig.yaml file and stage_01_get_data
 ```
