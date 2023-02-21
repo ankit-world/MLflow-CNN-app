@@ -33,3 +33,8 @@ conda env export > conda.yaml
 
 
 ### STEP 06- commit and push the changes to the remote repository
+
+### STEP 07 - Get data
+```bash
+create stage_01_template.py and update config.yaml file to fetch and create data file
+```

@@ -140,6 +140,7 @@ configs/secrets.yaml
 # add your env folder here if its there
 mlruns/
 data.zip
-running_logs.log
-
-
+PetImages
+dest/CDLA-Permissive-2.0.pdf
+dest/readme[1].txt
+logs/running_logs.log
