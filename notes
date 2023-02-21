@@ -1,1 +1,3 @@
 touch init_setup.sh
+conda env create -f conda.yaml(will run conda.yaml file , create env and install all required dependencies)
+conda activate env

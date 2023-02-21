@@ -1,4 +1,4 @@
-name: D:\Insights\MLops\MLflow-cnn-app\env
+name: MLflow-CNN
 channels:
   - defaults
 dependencies:
