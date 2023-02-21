@@ -142,5 +142,6 @@ mlruns/
 data.zip
 PetImages
 dest/CDLA-Permissive-2.0.pdf
-dest/readme[1].txt
 logs/running_logs.log
+data/readme[1].txt
+data/bad_data
