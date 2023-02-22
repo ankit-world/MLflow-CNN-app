@@ -57,3 +57,9 @@ mlflow run. --no-conda
 ```bash
 mlflow run . -e get_data -P config=configs/your_config.yaml --no-conda
 ```
+
+### Create stage_04_train.py file for training and stage_03_prepare_callbacks.py
+```bash
+update stage_04_train.py file for training and stage_03_prepare_callbacks.py with required code
+update  MLproject file, main.py file, config.yaml file
+```
