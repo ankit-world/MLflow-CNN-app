@@ -1,10 +1,11 @@
+
 name: MLflow-app
 
 conda_env: conda.yaml
 
 entry_points:
   main:
-    command: "python src/main.py"
+    command: "pip install -e . && python src/main.py"
 
   get_data:
     parameters:
