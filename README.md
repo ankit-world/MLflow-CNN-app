@@ -47,3 +47,13 @@ conda env export > conda.yaml
 2. Update config file with params
 3. This will create model folder with .h5 model
 ```
+
+### Command to run the ML project file
+```bash
+mlflow run. --no-conda
+```
+
+### Run any specific entry point in the ML project files
+```bash
+mlflow run . -e get_data -P config=configs/your_config.yaml --no-conda
+```
