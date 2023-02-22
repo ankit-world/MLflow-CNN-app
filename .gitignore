@@ -141,8 +141,8 @@ configs/secrets.yaml
 mlruns/
 data.zip
 PetImages
-dest/CDLA-Permissive-2.0.pdf
+data/CDLA-Permissive-2.0*
 logs/running_logs.log
-data/readme[1].txt
+data/readme*
 data/bad_data
-data/model/init_model.h5
+data/model/init_model.h5*
