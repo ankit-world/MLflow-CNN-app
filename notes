@@ -1,3 +1,5 @@
 touch init_setup.sh
 conda env create -f conda.yaml(will run conda.yaml file , create env and install all required dependencies)
 conda activate env
+mlflow run . --no-conda # To run all stagesof MLproject
+mlflow run . -e get_data -P config=configs/config2.yaml --no-conda #To run specific stage.

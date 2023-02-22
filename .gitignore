@@ -145,3 +145,4 @@ dest/CDLA-Permissive-2.0.pdf
 logs/running_logs.log
 data/readme[1].txt
 data/bad_data
+data/model/init_model.h5
