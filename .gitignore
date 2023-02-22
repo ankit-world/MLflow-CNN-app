@@ -145,4 +145,4 @@ data/CDLA-Permissive-2.0*
 logs/running_logs.log
 data/readme*
 data/bad_data
-data/model/init_model.h5*
+data/model/init_model.h5
