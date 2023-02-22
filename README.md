@@ -40,3 +40,10 @@ conda env export > conda.yaml
 2.write code unzip data in common.py as a function, stage_01_get_data.py file and config.yaml
 3.create data_mgmt file to validate image and store bad images in bad folder, update cnfig.yaml file and stage_01_get_data
 ```
+
+### STEO 08 - Model Creation
+```bash
+1. Create Stage_02_base_model_creation.py file and update required code
+2. Update config file with params
+3. This will create model folder with .h5 model
+```
