@@ -38,10 +38,15 @@ def main(config_path):
     #params = read_yaml(params_path)
     #pass
 
-    # Unzip Operations
+    # Unzip ops
     unzip_data_dir = config["data"]["unzip_data_dir"]
-    create_directories([unzip_data_dir])
-    unzip_file(source=data_file_path, dest=unzip_data_dir)
+    if not os.path.exists(unzip_data_dir):
+        create_directories([unzip_data_dir])
+        unzip_file(source=data_file_path, dest=unzip_data_dir)
+    else:
+        logging.info(f"data already extracted")
+    # validating data
+    validate_image(config)
 
     # validating Data
     validate_image(config)

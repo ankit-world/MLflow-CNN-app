@@ -21,8 +21,7 @@ logging.basicConfig(
 def main(config_path):
     ## read config files
     config = read_yaml(config_path)
-    #params = read_yaml(params_path)
-    #pass
+
     params = config["params"]
 
     logging.info("layers defined")
@@ -39,7 +38,6 @@ def main(config_path):
 
     classifier = tf.keras.Sequential(LAYERS)
 
-    #logging.info(classifier.summary())
     logging.info(f"base model summary:\n{log_model_summary(classifier)}")
 
     classifier.compile(
@@ -61,7 +59,6 @@ def main(config_path):
 if __name__ == '__main__':
     args = argparse.ArgumentParser()
     args.add_argument("--config", "-c", default="configs/config.yaml")
-    args.add_argument("--params", "-p", default="params.yaml")
     parsed_args = args.parse_args()
 
     try:
